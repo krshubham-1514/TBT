@@ -1,0 +1,380 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#ededed;
+}
+/*============================================HEADER SECTION================================*/
+#menu,#news{
+    display:inline;
+}
+#header{
+
+width:100%;
+height:80px;
+box-shadow:2px 2px 5px 5px #C7C7C7;
+position:relative;
+background-color:white;
+
+}
+
+#menu{
+    position:absolute;
+    line-height:80px;
+    left:20%;
+    
+}
+#menu ul
+{
+    list-style:none;
+}
+#menu ul li{
+    float:left;
+    
+}
+#menu ul li{
+    position:relative;
+    margin-left: 45px;
+    transition:0s;
+    padding-left:25px;
+    padding-right:25px;
+    transition:0.5s;
+}
+#menu ul li:hover{
+    background-color:#575757;
+    cursor:pointer;
+    padding-left:25px;
+    padding-right:25px;
+    border-radius:0px;
+    
+}
+#menu ul li a{
+    color:#474747;
+    text-decoration:none;
+    font-size:16px;
+    font-family:sans-serif;
+}
+#menu ul li:hover a{
+    color:white;
+    
+}
+/*==============Main News section part-consisting news container ,more section butto ns,images,links to new sections=================*/
+#news{
+   position:absolute;
+   left:70%;
+   line-height:80px;
+
+    
+}
+
+#news input{
+    height:25px;
+    font-size:15px;
+    
+}
+
+#news button{
+   height:28px;
+   margin-left:8px;
+   border:0px;
+   padding:5px;
+   border-radius:25px;
+   
+   
+   
+    
+}
+#news button:hover{
+    animation-name:hover;
+    animation-fill-mode:forwards;
+    animation-duration:0.5;
+}
+@keyframes hover
+{
+    0%
+    {
+        box-shadow:2px 2px 2px #ededed;
+    }
+    100%
+    {
+        box-shadow:3px 3px 3px #ededed;
+    }
+}
+#news button a{
+    text-decoration:none;
+    
+    color:white;
+    
+}
+#news button {
+    cursor:pointer;
+    box-shadow:1px 1px 1px 1px silver;
+   
+    
+}
+#news button:hover {
+    
+    opacity:0.9;
+}
+
+#logo{
+    position:absolute;
+    top:350px;
+    right:3%;
+}
+#logo img{
+     display:block;
+    
+    }
+#logo img{
+    margin-top:6px;
+}
+#logo img:hover{
+    animation-name:zoom;
+    animation-fill-mode:forwards;
+    animation-duration: 0.5s;
+    
+}
+@keyframes zoom
+{
+    0%
+    {
+        transform:scale(1);
+    }
+    100%
+    {
+        transform:scale(1.15);
+    }
+}
+
+#wrapper
+{
+    position:relative;
+    height:840px;
+    width:100%;
+    overflow:hidden;
+    
+}
+#wrapper #slide img
+{
+   
+    
+}
+
+
+#maincontent .box{
+        height:450px;
+        width:100%;
+        
+        margin-top:75px;
+        top:450px;
+        background-color:white;
+        box-shadow:2px 2px 2px 2px #C7C7C7;
+        
+       
+    }
+#maincontent .box img{
+        width:23%;  
+        height:150px;
+    }
+
+#maincontent .box .inside .headlineimage
+{
+    width:50%;
+    height:304px;
+    float:left;
+}
+#maincontent{
+    margin-top:625px;
+}
+.inside{
+    
+    position:relative;
+    top:50px;
+    left:35px;
+}
+button{ 
+    display:block;
+    position:relative;
+    top:15px;
+    left:5px;
+    height:45px;
+    width:225px;
+    float:right;
+    margin-right:45%;    
+    border-radius:3px;
+    border:0;
+    background-color:cornflowerblue;
+    color:white;
+    cursor:pointer;
+    
+}
+button a{
+    color:white;
+    text-decoration:none;
+    
+}
+button:hover
+{
+    animation-name:popup;
+    animation-duration:0.25s;
+    animation-fill-mode:forwards;
+}
+@keyframes popup
+{
+    from{
+    box-shadow:0px 0px 0px 0px #d1d1d1;
+    }
+    to{
+        box-shadow:2px 2px 2px 2px #d1d1d1;
+    }
+}
+h2{
+ position:relative;
+ top:-10px;
+ left:40%;
+font-family: 'Questrial', sans-serif;
+color:#474747;
+
+}
+              /*=============== FOOTER-consisting of quick links,bottom logo,input fields*===========*/
+
+#footer
+{
+position:relative;
+width:45px;
+border-radius:25px;
+margin-top:80%;
+clear:both;
+width:100%;
+background-color:#454545;
+height:250px;
+border-radius:0;
+overflow:hidden;
+}
+#footer #firstlist
+{
+    position:relative;
+    top:40%;
+    left:4%;
+}
+#footer
+{
+    color:white;
+}
+#footer #firstlist ul li a
+{
+    color:white;
+    font-family:'Ubuntu','Lato';
+    
+}
+#footer #firstlist ul li a:hover
+{
+    color:orange;
+    font-family:'Ubuntu','Lato';
+    
+}
+#footer #firstlist ul li
+{
+    margin:5px;
+    list-style:none;
+}
+#firstlist ul
+{
+    margin-top:
+}
+#secondlist ul li
+{
+    list-style:none;
+}
+#secondlist ul li
+{
+    float:left;
+    margin:5px;
+}
+#secondlist ul{
+    position:absolute;
+    top:75%;
+    left:45%;
+    
+    
+}
+#susc{
+    position:absolute;
+    top:50%;
+    left:43%;
+}
+#susc input
+{
+    height:37px;
+    width:225px;
+    
+    border:0;
+}
+#footer #susc button
+{
+    position:absolute;
+    top:00%;
+    left:70%;
+    height:37px;
+    width:75px;
+    
+}
+
+#footer #thirdlist ul li
+{
+    display:block;
+}
+@keyframes spray{
+    0%
+    {
+        transform:scale(1);
+        
+    }
+    20%
+    {
+        transform:scale(1.25);
+        
+    }
+    40%
+    {
+        transform:scale(1.35);
+    }
+    80%
+    {
+        transform:scale(1.25);
+    }
+    100%
+    {
+        transform:scale(1);
+    }
+}
+@media screen and (max-width:1002px)
+{
+    .cointainer1{
+    position:relative;
+    top:650px;
+    width:100%;
+    height:450px;
+    padding:50px;
+    box-shadow:3px 3px 3px 3px #ededed;
+    margin:auto;
+    border-radius:2px;
+    overflow:hidden;
+    }
+}
+@media screen and (max-width:1145px)
+{
+  #menu{
+    position:absolute;
+    line-height:80px;
+    left:15%;
+    
+}  
+#menu ul li{
+    position:relative;
+    margin-left: 45px;
+}
+}
